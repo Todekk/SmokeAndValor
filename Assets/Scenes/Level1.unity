@@ -4270,6 +4270,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (1)
@@ -5779,6 +5783,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire
@@ -6308,6 +6316,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (3)
@@ -7732,6 +7744,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (2)
@@ -7828,6 +7844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2595376711869647360, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level1
+      objectReference: {fileID: 0}
     - target: {fileID: 3249543892386922785, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
       propertyPath: m_LocalPosition.x
       value: 608.33
@@ -7868,11 +7888,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4614665377561240448, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614665377561240448, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+--- !u!114 &875819772 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3357482583919761062, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+  m_PrefabInstance: {fileID: 875819771}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74bb936f6dfaa374bb4c0c6221a61421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &875855622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7906845092934970581, guid: 210e703d8d45460438ee6a6e8f13042d, type: 3}
@@ -10613,6 +10652,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (8)
@@ -13011,6 +13054,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (6)
@@ -16487,8 +16534,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Use the W A S D keys to move\n\nUse F when near a victim to pick them
-    up, \nthen drop them off at the ambulance\n\nUse 1 and 2 to cycle between gear\n\nYour
-    fireaxe can break obstacles\nYour fire extinguisher can extinguish fires"
+    up, \nthen drop them off at the ambulance\nor to interact with objects\n\nUse
+    1 and 2 to cycle between gear\n\nYour fireaxe can break obstacles\nYour fire
+    extinguisher can extinguish fires\n\nUse G to equip your gas mask"
 --- !u!222 &1900846790
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16623,6 +16671,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (5)
@@ -17834,6 +17886,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (9)
@@ -18138,6 +18194,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (4)

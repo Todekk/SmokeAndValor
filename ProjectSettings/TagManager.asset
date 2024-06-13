@@ -18,6 +18,8 @@ TagManager:
   - fire
   - destructibleobject
   - missionboard
+  - gasmask
+  - smoke
   layers:
   - Default
   - TransparentFX

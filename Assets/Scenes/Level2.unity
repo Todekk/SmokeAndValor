@@ -3225,6 +3225,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (8)
@@ -3649,6 +3653,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (9)
@@ -6888,6 +6896,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (10)
@@ -10579,6 +10591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2595376711869647360, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level2
+      objectReference: {fileID: 0}
     - target: {fileID: 3249543892386922785, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
       propertyPath: m_LocalPosition.x
       value: 535.82
@@ -10624,6 +10640,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+--- !u!114 &875819772 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3357482583919761062, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+  m_PrefabInstance: {fileID: 875819771}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74bb936f6dfaa374bb4c0c6221a61421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &878004633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3087c85ae73a9f94e900671ac1fd06de, type: 3}
@@ -15501,6 +15528,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (12)
@@ -17347,6 +17378,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (15)
@@ -18254,6 +18289,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (6)
@@ -19019,6 +19058,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (11)
@@ -20645,6 +20688,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (13)
@@ -22604,6 +22651,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (16)
@@ -23882,6 +23933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (7)
@@ -25171,6 +25226,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (14)
@@ -27354,6 +27413,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450992545786951534, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 875819772}
     - target: {fileID: 9161708087336701012, guid: 058b5b14b5a1bb3488637cb313c01d44, type: 3}
       propertyPath: m_Name
       value: Yellow-Fire (17)

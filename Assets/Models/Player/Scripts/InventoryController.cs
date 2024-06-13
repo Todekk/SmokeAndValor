@@ -9,10 +9,11 @@ public class InventoryController : MonoBehaviour
     public RawImage fireExtinguisherIcon;
     public GameObject fireAxe;
 
+    public GameObject gasMask;
+
     public BoxCollider fireAxeCollider;
 
     public BoxCollider feConeCollider;
-
 
     public GameObject fireExtinguisher;
     private KeyCode[] numberKeys = {
@@ -51,6 +52,11 @@ public class InventoryController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            gasMask.SetActive(!gasMask.activeSelf);
+        }
 
         if (Input.GetMouseButton(0))
         {

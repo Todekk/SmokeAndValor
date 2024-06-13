@@ -15,7 +15,7 @@ public class ObstacleController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(obstacleHealth == 0f)
+        if(obstacleHealth <= 0f)
         {
             doorCollider.enabled = true;
             Destroy(gameObject);
