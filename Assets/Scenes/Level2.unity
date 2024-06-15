@@ -5812,6 +5812,18 @@ MonoBehaviour:
           m_StringArgument: MainHub
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1305834495}
+        m_TargetAssemblyTypeName: ObjectiveController, Assembly-CSharp
+        m_MethodName: FinishLevel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &516698424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10633,6 +10645,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3249543892386922785, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614665377561240448, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614665377561240448, guid: 01366ac48cbd9f746abf7f92d7234073, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

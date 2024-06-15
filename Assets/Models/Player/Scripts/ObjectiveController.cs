@@ -169,6 +169,11 @@ public class ObjectiveController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    public void FinishLevel(string levelName)
+    {
+        PlayerPrefs.SetInt(levelName,1);
+        PlayerPrefs.SetString("current_mission",null);
+    }
 
 
 }
