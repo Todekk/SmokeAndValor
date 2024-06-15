@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -170,9 +171,37 @@ public class ObjectiveController : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
     public void FinishLevel(string levelName)
-    {
+    {        
         PlayerPrefs.SetInt(levelName,1);
+        CheckIfAllLevelsAreCompleted();
         PlayerPrefs.SetString("current_mission",null);
+    }
+    void CheckIfAllLevelsAreCompleted()
+    {
+        string[] levels = { "Level2", "Level3", "Level4" };
+        bool allLevelsSetTo1 = true;
+
+        foreach (string level in levels)
+        {
+            if (PlayerPrefs.HasKey(level) && PlayerPrefs.GetInt(level) == 1)
+            {
+                Debug.Log(level + " is set to 1");
+            }
+            else
+            {
+                Debug.LogWarning(level + " is not set to 1 or does not exist");
+                allLevelsSetTo1 = false;
+            }
+        }
+
+        if (allLevelsSetTo1)
+        {
+            SceneManager.LoadScene("GameFinished");
+        }
+        else
+        {
+            return;
+        }
     }
 
 
